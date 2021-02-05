@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Dancing+Script:wght@600&family=Patrick+Hand&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  color: #161d6f;
+  background-color: #98ded9;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn {
+  background-color: #c7ffd8;
+  border-radius: 5px;
+  border: none;
+  color: #161d6f;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:focus {
+  outline: none;
+}
